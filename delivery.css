@@ -78,7 +78,7 @@
 
 .fun_color a{
     color: darkmagenta;
-    text-decoration: nonea;
+    text-decoration: none;
 }
 
 .fun_color a:hover{
