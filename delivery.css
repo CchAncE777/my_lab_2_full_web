@@ -76,6 +76,11 @@
     cursor: url('photoes/icons8-курсор-50.png'), pointer;
 }
 
+.fun_color a:hover{
+    color:#8B5CF6;
+    text-decoration: underline dotted;
+}
+
 /*--------------------------------header-----------------------*/
 
 .header_laptop{
@@ -508,6 +513,10 @@ h5{
     font-size: 24px;
 }
 
+.maxed_text_country{
+    margin: 0 auto;
+    max-width: 757px;
+}
 /*--------------------------------footer-------------------------------*/
 
 /*-------------------------------media--------------------------*/
@@ -683,6 +692,11 @@ h5{
         margin-top: 24px;
         margin-right: 0px
     }
+
+    .maxed_text_country{
+        max-width: 757px;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 758px) and (max-width: 1024px) {
@@ -840,6 +854,11 @@ h5{
 
     .full_number_block{
         margin: 39px 0 39px 0;
+    }
+
+    .maxed_text_country{
+        margin: 0 auto;
+        max-width: 640px;
     }
 }
 /*-------------------------------media--------------------------*/
