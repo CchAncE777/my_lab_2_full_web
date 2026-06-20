@@ -1,0 +1,845 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.container-big{
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_1_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    background-color: #8B5CF6;
+    color: #F9FAFB;
+    border: none;
+    border-radius: 4px;
+}
+
+.font_36{
+    font-size: 36px;
+}
+
+.font_30{
+    font-size: 30px;
+}
+
+.font_24{
+    font-size: 24px;
+}
+
+.font_20{
+    font-size: 20px;
+}
+
+.font_18{
+    font-size: 18px;
+}
+
+.font_16{
+    font-size: 16px;
+}
+
+.font_14{
+    font-size: 14px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.button:hover{
+    box-shadow: 0 0 10px 5px rgba(75, 0, 130, 1);
+}
+
+.my-cursor_all{
+    cursor: url('photoes/icons8-курсор-50.png'), pointer;
+}
+
+/*--------------------------------header-----------------------*/
+
+.header_laptop{
+    display: block;
+}
+
+.header_tablet{
+    display: none;
+}
+
+.header-delivery{
+    display: flex;
+    align-items: center;
+}
+
+.from_board_Delivery{
+    font-weight: 900;
+}
+
+.from_board_Delivery_photo{
+    margin: 25px 4px 35px 0;
+}
+
+.vielot{
+    padding: 10px 28px;
+}
+
+.Number-servis{
+    font-weight: 900;
+}
+
+
+.line_phone{
+    border-left: 2px solid #A78BFA;
+    margin: 12px;
+    padding: 0 12px;
+}
+
+.pay-zakaz{
+    direction: rtl;
+}
+
+.nav-gap{
+    display: flex;
+    gap: 24px;
+}
+
+.violet-button-highlighter{
+    padding-bottom: 24px;
+}
+
+.header-telephone{
+    display: none;
+}
+
+/*--------------------------------header-----------------------*/
+
+/*--------------------------------main-----------------------*/
+
+/*--------------------------------Calculator-------------------------------*/
+
+.white-square{
+    background-color: white;
+    max-width: 756px;
+    width: 100%;
+    border-radius: 16px;
+    margin-top: 28px;
+    padding-top: 24px;
+}
+
+.highlighter1{
+    background-color: #E5E7EB;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 72px;
+    padding-top: 48px;
+}
+
+h1{
+    margin: 24px 24px 12px 0;
+    max-width: 756px;
+}
+
+h2{
+    margin-bottom:16px;
+}
+
+.p-width{
+    max-width: 756px;
+    margin-bottom: 16px;
+}
+
+.first-calc-input{
+    width: 472px;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    color: #9CA3AF;
+    border-color: #111827;
+    border-width: 2px;
+    border-radius: 4px;
+    margin: 28px 0 24px 0;   
+}
+
+.calc-input{
+    padding: 12px;
+    box-sizing: border-box;
+    color: #9CA3AF;
+    border-color: #111827;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    margin-top: 4px;
+}
+
+.delivery-img{
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.calc-container{
+    max-width: 496px;
+    margin: 0 auto;
+}
+
+.text-container{
+    max-width: 358px;
+    margin: 0 auto;
+}
+
+.money-button-violet{
+    padding: 10px 183px;
+    margin-top: 12px;
+}
+
+.rectangle_small{
+        display: none;
+    }
+
+.rectangle_big{
+        display: block;
+    }
+
+
+/*--------------------------------Calculator-------------------------------*/
+
+/*--------------------------------advantages-------------------------------*/
+
+h3{
+    margin-top: 72px;
+}
+
+.photo-group{
+    margin: 59.33px 23.33px 59.33px 35.33px;
+}
+
+.photo-package{
+    margin: 59.33px 23.33px 59.33px 83.33px;
+}
+
+.photo-car{
+    margin: 82px 12px 82px 72px;
+}
+
+.photo-win{
+    margin: 24px 23.33px 24px 35.33px;
+}
+
+.photo-monik{  
+     margin: 41px 23.33px 41px 83.33px;
+}
+
+.photo-shop{
+     margin: 41px 23.33px 41px 83.33px;
+}
+
+.text-advanrages-last{
+    margin-right: 24px;
+}
+
+.max-text-width-advant{
+    max-width: 300px;
+}
+
+h4{
+    margin-bottom: 12px;
+}
+
+.new_advantages_another{
+    display: none;
+}
+
+.old_advantages{
+    display: block;
+}
+
+/*--------------------------------advantages-------------------------------*/
+
+/*--------------------------------comments-------------------------------*/
+
+h5{
+    margin: 72px 0 12px 0;
+}
+
+.country-img{
+    margin: 24px 0 4px 0;
+}
+
+.max-width-country{
+    max-width: 366px;
+    margin-bottom: 36px;
+}
+
+.document-button{
+    padding: 16px 28px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.white-square-comments{
+    position: relative;
+    background-color: white;
+    max-width: 626px;
+    min-width: 626px;
+    width: 100%;
+    max-height: 350px;
+    min-height: 350px;
+    border-radius: 16px;
+    margin-top: 74px;
+}
+
+.white-square-comments_2{
+    position: relative;
+    background-color: white;
+    max-width: 626px;
+    min-width: 626px;
+    width: 100%;
+    max-height: 350px;
+    min-height: 350px;
+    border-radius: 16px;
+    margin-left: 24px;
+    margin-top: 74px;
+}
+
+.place-comma{
+    position: absolute;
+    bottom: 54.62px;
+    right: 24.25px;
+    width: 62.5px;
+    height: 43.75px;
+}
+
+.comment-text_1{
+    margin: 32px 43px 0 43px;
+    font-weight: bold;
+}
+
+.comment-text_2{
+    margin: 32px 43px 0 43px;
+    font-weight: bold;
+}
+
+.right-comment{
+    margin: 0px 23px 0px 47px;
+}
+
+.left-comment{
+    margin: 0px 47px 0px 23px;
+}
+
+.all_margin_comments{
+    margin-top: 32px;
+}
+
+.author_comment{
+    color: #6B7280;
+    position: absolute;
+    bottom: 32px;
+    left: 43px;
+}
+
+/*--------------------------------comments-------------------------------*/
+
+/*--------------------------------questions-------------------------------*/
+
+.white-square-questions{
+    position: relative;
+    background-color: white;
+    max-width: 1536px;
+    width: 100%;
+    max-height: 554px;
+    border-radius: 16px;
+}
+
+.questions_last{
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.last-questions-container{
+    max-width: 497px;
+    margin: 0 auto;
+}
+
+.question_input{
+    padding: 12px;
+    color: #9CA3AF;
+    border-color: #111827;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.last_question_input{
+    padding: 12px;
+    padding-bottom: 112px;
+    color: #9CA3AF;
+    border-color: #111827;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    min-width: 469px;
+}
+
+.more-questions{
+    padding: 64px 0 20px 0;
+}
+
+.last_question_button{ 
+    padding: 10px 178.5px;
+    margin-bottom: 64px;
+}
+
+/*--------------------------------questions-------------------------------*/
+
+/*--------------------------------main-------------------------------*/
+
+/*--------------------------------footer-------------------------------*/
+
+.highlighter-footer{
+    background-color: #111827;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.text_color_footer_1{
+    color: #F9FAFB;
+}
+
+.text_color_footer_2{
+    color: #4B5563;
+    max-width: 1166px;
+    font-size: 12px;
+}
+
+.from_board_footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer_delivery_photo{
+    margin: 0 4px 8px 0;
+}
+
+.footer_delivery_text{
+    margin: 21px 289px 29px 0;
+    font-weight: 900;
+}
+
+.footer-landing{
+    margin: 37px 12px 0 12px;
+    font-weight: 600;
+}
+
+.full_number_block{
+    margin: 11px 0 35px 195px;
+}
+
+.Number-servis_footer{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.footer_Offer_text{
+    margin: 24px 148px 0 0;
+}
+
+.inst{
+    padding: 17px;
+    margin: 24px 8px 0 8px;
+}
+
+.twit{
+    padding: 17px 17px 18px 16px;
+    margin: 24px 8px 0 8px;
+}
+
+.face{
+    padding: 16px 20px;
+    margin: 24px 8px 0 8px;
+}
+
+.footer-image img{
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+.footer-image img:hover{
+    background-color: rgba(200, 162, 200, 1.0);
+}
+
+.only_big{
+    display: block;
+}
+
+.small_and_smaller{
+    display: none;
+}
+
+.font_size_no_one{
+    font-size: 16px;
+}
+
+.font_phones{
+    font-size: 24px;
+}
+
+/*--------------------------------footer-------------------------------*/
+
+/*-------------------------------media--------------------------*/
+
+@media (min-width: 1024px) and (max-width: 1538px) {
+    .header_laptop{
+        display: none;
+    }
+
+    .header_tablet{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container_smaller{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .from_board_Delivery_photo_smaller{
+        margin: 25px 4px 0 0;
+    }
+
+    .new_number{
+        margin-left: 234px;
+    }
+
+    .color_hr{
+        border-top: 2px solid #A78BFA;
+        margin: 12px 0;
+    }
+
+    .text-header-smaller{
+        max-width: 232.5px;
+        margin: 4px 8px;
+    }
+
+    .text-header-smaller-left{
+        max-width: 232.5px;
+        margin: 4px 8px 4px 32px;
+    }
+
+    .text-header-smaller-right{
+        max-width: 232.5px;
+        margin: 4px 32px 4px 8px;
+    }
+    
+    .last-text-header-smaller{
+        padding-bottom: 24px;
+    }
+
+    .flex_1_section{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new_advantages_another{
+        display: block;
+    }
+
+    .old_advantages{
+        display: none;
+    }
+
+    .for-photo-group{
+        margin: 48.67px 21.07px 48.67px 9.07px;
+    }
+
+    .for-photo-package{
+        margin: 48.67px 21.07px 48.67px 10.07px;
+    }
+
+    .for-photo-car{
+        margin: 27.2px 12px 0 0;
+    }
+
+    .for-photo-win{
+        margin: 5.6px 21.07px 0 33.07px;
+    }
+
+    .for-photo-monik{  
+        margin: 43.2px 21.07px 30px 9.07px;
+    }
+
+    .for-photo-shop{
+        margin: 43.2px 21.07px 30px 33.07px;
+    }
+
+    .maxed_text{
+        max-width: 251.2px;
+        width: 100%;
+    }
+
+    .flex-small_smaller{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }    
+
+    .second_comment_none{
+        display: none;
+    }
+
+    .flex_smaller{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .white-square-comments{
+        position: relative;
+        background-color: white;
+        max-width: 570px;
+        min-width: 570px;
+        width: 100%;
+        max-height: 350px;
+        border-radius: 16px;
+    }
+
+    .white-square-comments_2{
+        display: none;
+    }
+
+    .right-comment{
+        margin-left: 32px;
+    }
+
+    .left-comment{
+        margin-right: 32px;
+    }
+
+    .all_margin_comments{
+        margin-top: 32px;
+        justify-content: center;
+    }
+
+    .only_big{
+        display: none;
+    }
+
+    .small_and_smaller{
+        display: block;
+        text-align: center;
+    }
+
+    .font_size_no_one{
+        font-size: 12px;
+    }
+
+    .font_phones{
+        font-size: 20px;
+    }
+
+    .Number-servis_footer{
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 4px;
+    }
+
+    .footer_delivery_text{
+        margin: 45px 171px 29px 0;
+        font-weight: 900;
+    }
+
+    .full_number_block{
+        margin: 39px 0 39px 0;
+    }
+
+    .footer_Offer_text{
+        margin-top: 24px;
+        margin-right: 0px
+    }
+}
+
+@media (min-width: 758px) and (max-width: 1024px) {
+    .header_laptop{
+        display: none;
+    }
+
+    .header-telephone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .from-board-delivery-small{
+        margin: 8px 4px 8px 0;
+    }
+
+    .container-small{
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .header-photo-small{
+        margin-left: 16px;
+    }
+
+    .flex_1_section{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectangle_small{
+        display: block;
+    }
+
+    .rectangle_big{
+        display: none;
+    }
+    
+    .font_36{
+        font-size: 30px;
+    }
+
+    .old_advantages{
+        display: none;
+    }
+
+    .new_advantages_another{
+        display: block;
+    }
+
+    .small-advantages{
+        display: block;
+    }
+
+    .maxed_text{
+        max-width: 251.2px;
+        width: 100%;
+    }
+
+    .advantages_our_small{
+        margin-bottom: 24px;
+    }
+
+    .advantages_center{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .flex-small_smaller{
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        align-items: center;
+        gap: 24px 12px;
+        margin-bottom: 24px
+    }    
+
+    .second_comment_none{
+        display: none;
+    }
+
+    .flex_small{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .white-square-comments_2{
+        display: none;
+    }
+
+    .white-square-comments{
+        position: relative;
+        background-color: white;
+        max-width: 442px;
+        min-width: 442px;
+        width: 100%;
+        max-height: 280px;
+        border-radius: 16px;
+    }
+
+    .right-comment{
+        margin-left: 32px;
+        margin-right: 0px;
+    }
+
+    .left-comment{
+        margin-right: 32px;
+        margin-left: 0px;
+    }
+
+    .only_big{
+        display: none;
+    }
+
+    .small_and_smaller{
+        display: block;
+        text-align: center;
+    }
+
+    .font_size_no_one{
+        font-size: 12px;
+    }
+
+    .font_phones{
+        font-size: 20px;
+    }
+
+    .Number-servis_footer{
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 4px;
+    }
+
+    .footer_Offer_text{
+        margin-top: 24px;
+        margin-right: 0px
+    }
+
+    .footer_flex_small{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer_delivery_text{
+        margin: 45px 0 29px 0;
+        font-weight: 900;
+    }
+
+    .full_number_block{
+        margin: 39px 0 39px 0;
+    }
+}
+/*-------------------------------media--------------------------*/
