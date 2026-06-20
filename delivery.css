@@ -76,6 +76,10 @@
     cursor: url('photoes/icons8-курсор-50.png'), pointer;
 }
 
+.fun_color a{
+    color: darkmagenta;
+}
+
 .fun_color a:hover{
     color:#8B5CF6;
     text-decoration: underline dotted;
@@ -134,6 +138,10 @@
 
 .header-telephone{
     display: none;
+}
+
+.zagolovki{
+    grid-template-columns: max-content 1fr;
 }
 
 /*--------------------------------header-----------------------*/
